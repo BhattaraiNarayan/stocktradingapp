@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 function Footer() {
@@ -12,43 +13,43 @@ function Footer() {
                 </div>
                 <div className='col linkPara' style={{textDecoration:"none"}}>
                     <p>Account</p>
-                    <a href=''>Open demat account</a><br/>
-                    <a href=''>Minor demat account</a><br/>
-                    <a href=''>NRI demat account</a><br/>
-                    <a href=''>Commodity</a><br/>
-                    <a href=''>Dematerialisation</a><br/>
-                    <a href=''>Fund transfer</a><br/>
-                    <a href=''>MTF</a><br/>
-                    <a href=''>Referral program</a><br/>
+                    <Link to="">Open demat account</Link><br/>
+                    <Link to="">Minor demat account</Link><br/>
+                    <Link to="">NRI demat account</Link><br/>
+                    <Link to="">Commodity</Link><br/>
+                    <Link to="">Dematerialisation</Link><br/>
+                    <Link to="">Fund transfer</Link><br/>
+                    <Link to="">MTF</Link><br/>
+                    <Link to="">Referral program</Link><br/>
                 </div>
                  <div className='col linkPara' style={{textDecoration:"none"}}>
                     <p>Support</p>
-                    <a href=''>Contact us</a><br/>
-                    <a href=''>Support portal</a><br/>
-                    <a href=''>How to file a complaint?</a><br/>
-                    <a href=''>Status of your complaints</a><br/>
-                    <a href=''>Bulletin</a><br/>
-                    <a href=''>Circular</a><br/>
-                    <a href=''>Z-Connect blog</a><br/>
-                    <a href=''>Downloads</a><br/>                      
+                    <Link to="">Contact us</Link><br/>
+                    <Link to="">Support portal</Link><br/>
+                    <Link to="">How to file a complaint?</Link><br/>
+                    <Link to="">Status of your complaints</Link><br/>
+                    <Link to="">Bulletin</Link><br/>
+                    <Link to="">Circular</Link><br/>
+                    <Link to="">Z-Connect blog</Link><br/>
+                    <Link to="">Downloads</Link><br/>                      
                 </div> <div className='col linkPara' style={{textDecoration:"none"}}>
                     <p>company</p>
-                    <a href=''>About</a><br/>
-                    <a href=''>Philosophy</a><br/>
-                    <a href=''>Press & media</a><br/>
-                    <a href=''>Careers</a><br/>
-                    <a href=''>Zerodha Cares (CSR)</a><br/>
-                    <a href=''>Zerodha.tech</a><br/>
+                    <Link to="">About</Link><br/>
+                    <Link to="">Philosophy</Link><br/>
+                    <Link to="">Press & media</Link><br/>
+                    <Link to="">Careers</Link><br/>
+                    <Link to="">Zerodha Cares (CSR)</Link><br/>
+                    <Link to="">Zerodha.tech</Link><br/>
                     Open source
                 </div> <div className='col linkPara' style={{textDecoration:"none"}}>
                     <p>Quick Links</p>
-                    <a href=''>Upcoming IPOs</a><br/>
-                    <a href=''>Brokerage charges</a><br/>
-                    <a href=''>Market holidays</a><br/>
-                    <a href=''>Economic calendar</a><br/>
-                    <a href=''>Calculators</a><br/>
-                    <a href=''>Markets</a><br/>
-                    <a href=''>Sectors</a><br/>
+                    <Link to="">Upcoming IPOs</Link><br/>
+                    <Link to="">Brokerage charges</Link><br/>
+                    <Link to="">Market holidays</Link><br/>
+                    <Link to="">Economic calendar</Link><br/>
+                    <Link to="">Calculators</Link><br/>
+                    <Link to="">Markets</Link><br/>
+                    <Link to="">Sectors</Link><br/>
                 </div>
             </div>
             <div className='mt-5 text-small text-muted fs-6' style={{fontSize:"16px"}}>

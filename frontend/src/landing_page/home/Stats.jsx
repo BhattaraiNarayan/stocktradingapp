@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 function Stats() {
@@ -20,8 +21,8 @@ function Stats() {
             <div className='col-6 p-5'>
                 <img src='media/images/ecosystem.png' style={{width:"100%"}}/>
             <div className='text-center'>
-                <a href=''style={{textDecoration:"none"}}>Explore Our Products<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-                <a href='' style={{textDecoration:"none"}}>Try Kite Demo<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                <Link to="" style={{textDecoration:"none"}}>Explore Our Products<i class="fa fa-long-arrow-right" aria-hidden="true"></i></Link>
+                <Link to="" style={{textDecoration:"none"}}>Try Kite Demo<i class="fa fa-long-arrow-right" aria-hidden="true"></i></Link>
             </div>
             </div>
         </div>
